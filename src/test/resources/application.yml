@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: backend
+  profiles:
+    active: local
+
+  main:
+    allow-bean-definition-overriding: true
+
+management:
+  server:
+    address: 127.0.0.1
