@@ -18,6 +18,6 @@ public class ArtistServiceTest {
     
     @Test
     public void 아티스트정보가져오기_테스트() {
-        System.out.println(artistService.getArtist(1));
+        System.out.println(artistService.getArtistDetail(1));
     }
 }
